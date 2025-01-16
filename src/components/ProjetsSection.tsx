@@ -20,16 +20,24 @@ export default function ProjetsSection() {
     },
     {
       titre: "Application de notation de livre",
-      description: "gestion du back-end et de la base de données",
+      description: "gestion de la base de données",
       technologies: ["JavaScript", "Node.js", "MongoDB"],
       githubLink: "https://github.com/fasymat/Mon_vieux_grimoire",
       imageUrl: "/Mon_Vieux_Grimoire.png"
+    },
+    {
+      titre: "Portfolio Sophie Bluel",
+      description: "devellopement en javascript",
+      technologies: ["JavaScript", "CSS",],
+      githubLink: "https://github.com/fasymat/sophie_bluel",
+      imageUrl: "/Mon_Vieux_Grimoire.png"
     }
-    // Ajoutez vos autres projets
+    
+    
   ]
 
   return (
-    <div className="bg-gradient-to-b from-custom-green-3/5 via-white to-custom-green-3/5">
+    <div className="bg-gradient-to-b from-custom-green-3/5 via-white to-custom-green-3/5 px-10 py-16">
       <div className="container mx-auto px-4 py-16">
         <h2 className="text-5xl font-bold text-center mb-20 text-custom-green-3">Mes Projets</h2>
         

@@ -11,7 +11,7 @@ export default function CompetencesSection() {
     },
     { 
       nom: 'Next.js', 
-      niveau: 'Intermédiaire', 
+      niveau: 'Avancé', 
       couleur: 'bg-black',
       logo: '/logos/nextjs.svg'
     },
@@ -23,7 +23,7 @@ export default function CompetencesSection() {
     },
     { 
       nom: 'JavaScript', 
-      niveau: 'Avancé', 
+      niveau: 'Intermédiaire', 
       couleur: 'bg-[#F7DF1E]',
       logo: '/logos/javascript.svg'
     },
@@ -62,7 +62,7 @@ export default function CompetencesSection() {
 
   return (
     <section id="competences" className="w-full">
-      <div className="w-full bg-gradient-to-b from-transparent via-custom-green-3/5 to-transparent">
+      <div className="w-full px-10 bg-gradient-to-b from-transparent via-custom-green-3/5 to-transparent">
         <div className="container mx-auto py-16">
           <h2 className="text-5xl font-bold text-center mb-20 text-custom-brown">Mes Compétences</h2>
           
@@ -83,7 +83,7 @@ export default function CompetencesSection() {
                   />
                   <h3 className="text-3xl text-white font-semibold">{techno.nom}</h3>
                 </div>
-                <p className="text-white italic mt-2">{techno.niveau}</p> 
+                <p className="text-white text-lg italic mt-2">{techno.niveau}</p> 
               </div>
             ))}
           </div>

@@ -60,7 +60,7 @@ export default function ParticlesBackground() {
         },
       },
       number: {
-        value: 120,  // Augmenté de 40 à 80 pour chaque zone
+        value: 100,  // Augmenté de 40 à 80 pour chaque zone
         density: {
           enable: true,
           area: 800,

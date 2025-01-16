@@ -106,7 +106,7 @@ export default function ContactSection() {
           <p className="text-[#D2B48C]">Email: mathieuarnaud@rocketmail.com</p>
           <div className="flex justify-center space-x-4 mt-4">
             <a 
-              href="https://linkedin.com/in/votrenom" 
+              href="https://www.linkedin.com/in/mathieu-arnaud-65a0ab33a/" 
               target="_blank" 
               className="text-[#D2B48C] hover:text-custom-green-3 transition-colors duration-300"
             >
