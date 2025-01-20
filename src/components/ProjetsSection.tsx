@@ -35,7 +35,7 @@ export default function ProjetsSection() {
   ]
 
   return (
-    <section className=" bg-[#f5f5f5] py-16">
+    <section className=" bg-[#f5f5f5] p-20">
       <div className="text-center mb-20">
         <h2 className="text-5xl font-extralight text-[#5b5963] tracking-wider uppercase">
           Mes Travaux

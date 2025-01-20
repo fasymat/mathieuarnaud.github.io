@@ -47,7 +47,7 @@ export default function ContactSection() {
     <div className="container pb-10 bg-[#f5f5f5] mx-auto " id="contact">
        <div className="text-center py-10">
         <h2 className="text-5xl font-extralight text-[#5b5963] tracking-wider uppercase">
-          N'hésitez pas à me contacter
+        N&apos;hésitez pas à me contacter
         </h2>
         <div className="h-1 w-20 bg-[#5b5963] mx-auto mt-4"></div>
       </div>
