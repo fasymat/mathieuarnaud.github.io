@@ -9,7 +9,7 @@ export default function Home() {
       {/* Section Accueil */}
       <section 
         id="accueil"
-        className="h-screen"
+        className=""
       >
         <AccueilSection />
       </section>

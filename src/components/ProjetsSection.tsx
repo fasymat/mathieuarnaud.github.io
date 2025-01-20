@@ -35,20 +35,20 @@ export default function ProjetsSection() {
   ]
 
   return (
-    <section className=" bg-[#f5f5f5]  mt-20 sm:mt-0 p-4 sm:p-20">
-      <div className="text-center mb-20">
-        <h2 className="text-5xl font-extralight text-[#5b5963] tracking-wider uppercase">
+    <section className="bg-[#f5f5f5]  sm:p-20">
+      <div className="text-center mb-10 sm:mb-20">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extralight text-[#5b5963] tracking-wider uppercase">
           Mes Travaux
         </h2>
         <div className="h-1 w-20 bg-[#5b5963] mx-auto mt-4"></div>
       </div>
       
-      <div className="container mx-auto px-4">
-        <div className="flex flex-wrap justify-center gap-8">
+      <div className="container mx-auto px-2 sm:px-4">
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-8">
           {projets.map((projet, index) => (
-            <div key={index} className="w-full sm:w-[600px] ">
+            <div key={index} className="w-full sm:w-[600px]">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden h-full">
-                <div className="relative w-full h-[250px] bg-gray-100">
+                <div className="relative w-full h-[200px] sm:h-[250px] bg-gray-100">
                   <Image
                     src={projet.imageUrl}
                     alt={projet.titre}
@@ -60,27 +60,19 @@ export default function ProjetsSection() {
                   />
                 </div>
                 
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold mb-4 text-black">{projet.titre}</h3>
-                  <p className="text-lg text-gray-700 mb-6">{projet.description}</p>
-                  <div className="flex flex-wrap gap-2 mb-6">
+                <div className="p-4 sm:p-6">
+                  <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-4 text-black">{projet.titre}</h3>
+                  <p className="text-base sm:text-lg text-gray-700 mb-4 sm:mb-6">{projet.description}</p>
+                  <div className="flex flex-wrap gap-2 mb-4 sm:mb-6">
                     {projet.technologies.map((tech, techIndex) => (
                       <span
                         key={techIndex}
-                        className="bg-white border border-[#5b5963] text-[#5b5963] px-3 py-1 hover:bg-black hover:text-white transition duration-500 rounded-lg text-sm"
+                        className="text-xs sm:text-sm bg-white border border-[#5b5963] text-[#5b5963] px-2 sm:px-3 py-1 hover:bg-black hover:text-white transition duration-500 rounded-lg"
                       >
                         {tech}
                       </span>
                     ))}
                   </div>
-                  <a
-                    href={projet.githubLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block bg-black border text-white px-6 py-3 rounded-lg hover:border-black hover:bg-white hover:text-black transition duration-500"
-                  >
-                    Voir sur GitHub
-                  </a>
                 </div>
               </div>
             </div>
@@ -89,4 +81,4 @@ export default function ProjetsSection() {
       </div>
     </section>
   )
-}
+  };
