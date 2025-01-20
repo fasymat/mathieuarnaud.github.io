@@ -30,7 +30,7 @@ export default function ProjetsSection() {
       description: "Faire le lien avec la base de données des projets, developper la page de connexion. Ajouts et suppression de projets",
       technologies: ["JavaScript", "CSS"],
       githubLink: "https://github.com/fasymat/sophie_bluel",
-      imageUrl: "/sophie-bluel2.png"
+      imageUrl: "/Sophie-bluel2.png"
     }
   ]
 
