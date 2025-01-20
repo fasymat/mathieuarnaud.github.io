@@ -4,7 +4,7 @@ import { AuroraBackground } from './ui/aurora-background'
 
 export default function AccueilSection() {
   return (
-    <main className=" relative ">
+    <main className=" relative p-4">
       <AuroraBackground className="absolute inset-0 z-0">
         <div></div>
       </AuroraBackground>
