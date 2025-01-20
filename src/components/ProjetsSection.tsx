@@ -73,11 +73,20 @@ export default function ProjetsSection() {
                       </span>
                     ))}
                   </div>
+                  <a
+    href={projet.githubLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-black border text-white px-6 py-3 rounded-lg hover:border-black hover:bg-white hover:text-black transition duration-500"
+  >
+    Voir sur GitHub
+  </a>
                 </div>
               </div>
             </div>
           ))}
         </div>
+        
       </div>
     </section>
   )
