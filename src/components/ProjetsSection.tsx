@@ -16,7 +16,7 @@ export default function ProjetsSection() {
       description: "Développer le systéme de notation de livre et de connexion,création de compte",
       technologies: ["Express", "Node.js", "MongoDB"],
       githubLink: "https://github.com/fasymat/Mon_vieux_grimoire",
-      imageUrl: "/logo.png"
+      imageUrl: "/Logo.png"
     },
     {
       titre: "site de location immobilière",
