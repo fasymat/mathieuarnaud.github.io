@@ -24,7 +24,7 @@ export default function Navbar() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-md shadow-md h-16">
         <div className="container mx-auto flex justify-between items-center h-full px-4">
           <div className="text-2xl hover:scale-110 transition-transform duration-200 text-black font-bold">
-            Arnaud Mathieu
+            ARNAUD Mathieu
           </div>
 
           <button 

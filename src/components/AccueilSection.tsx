@@ -24,7 +24,7 @@ export default function AccueilSection() {
 
       <div className="relative z-10 max-w-2xl mx-auto bg-[#f5f5f5]/90 backdrop-blur-sm rounded-lg shadow-[0_0_20px_rgba(0,0,0,0.1)] p-4 sm:p-6 md:p-8">
         <h1 className="text-xl sm:text-2xl md:text-4xl font-bold text-center mb-4 sm:mb-6 md:mb-10 text-black">
-          Mathieu Arnaud
+          Développeur Web Junior
         </h1>
         <div className="space-y-3 sm:space-y-4 md:space-y-8">
           <p className="text-sm sm:text-base md:text-xl text-gray-700">

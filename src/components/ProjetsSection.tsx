@@ -30,7 +30,7 @@ export default function ProjetsSection() {
       description: "Faire le lien avec la base de données des projets, developper la page de connexion. Ajouts et suppression de projets",
       technologies: ["JavaScript", "CSS"],
       githubLink: "https://github.com/fasymat/sophie_bluel",
-      imageUrl: "/Sophie-bluel2.png"
+      imageUrl: "/Sophie-bluel.png"
     }
   ]
 
@@ -48,16 +48,18 @@ export default function ProjetsSection() {
           {projets.map((projet, index) => (
             <div key={index} className="w-full sm:w-[600px]">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden h-full">
-                <div className="relative w-full h-[200px] sm:h-[250px] bg-gray-100">
+                <div className="relative w-full h-[150px] sm:h-[200px] bg-gray-100 flex items-center justify-center">
+                <div className={`relative ${projet.imageUrl === '/Sophie-bluel.png' || projet.imageUrl === '/Logo.png' ? 'w-[50%] h-[50%]' : 'w-[80%] h-[80%]'}`}>
                   <Image
                     src={projet.imageUrl}
                     alt={projet.titre}
                     fill
                     sizes="(max-width: 640px) 100vw, 600px"
                     quality={100}
-                    className="object-contain p-4"
+                    className="object-contain "
                     priority={index === 0}
                   />
+                  </div>
                 </div>
                 
                 <div className="p-4 sm:p-6">
