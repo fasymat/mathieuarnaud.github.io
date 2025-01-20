@@ -4,7 +4,7 @@ import { AuroraBackground } from './ui/aurora-background'
 
 export default function AccueilSection() {
   return (
-    <main className="min-h-screen relative p-4">
+    <main className="min-h-screen relative  ">
       <AuroraBackground className="absolute inset-0 z-0">
         {/* Add any children here if needed */}
         <div></div>
@@ -12,7 +12,7 @@ export default function AccueilSection() {
       
       
       {/* Photo section */}
-      <div className="relative z-10 flex justify-center items-center mb-16 mt-16 p-10">
+      <div className="relative z-10 flex justify-center items-center   p-10">
         <div className="w-[200px] md:w-[250px] h-[200px] md:h-[250px] rounded-full overflow-hidden">
           <Image
             src="/IMG_4942.jpg"

@@ -44,7 +44,7 @@ export default function ContactSection() {
   }
 
   return (
-    <div className="container pb-10 bg-[#f5f5f5] mx-auto " id="contact">
+    <div className="container sm:pb-10 bg-[#f5f5f5] mx-auto " id="contact">
        <div className="text-center py-10">
         <h2 className="text-5xl font-extralight text-[#5b5963] tracking-wider uppercase">
         N&apos;hésitez pas à me contacter

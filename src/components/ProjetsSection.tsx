@@ -35,7 +35,7 @@ export default function ProjetsSection() {
   ]
 
   return (
-    <section className=" bg-[#f5f5f5] p-20">
+    <section className=" bg-[#f5f5f5]  mt-20 sm:mt-0 p-4 sm:p-20">
       <div className="text-center mb-20">
         <h2 className="text-5xl font-extralight text-[#5b5963] tracking-wider uppercase">
           Mes Travaux
@@ -46,14 +46,14 @@ export default function ProjetsSection() {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center gap-8">
           {projets.map((projet, index) => (
-            <div key={index} className="w-[600px]">
+            <div key={index} className="w-full sm:w-[600px] ">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden h-full">
                 <div className="relative w-full h-[250px] bg-gray-100">
                   <Image
                     src={projet.imageUrl}
                     alt={projet.titre}
                     fill
-                    sizes="400px"
+                    sizes="(max-width: 640px) 100vw, 600px"
                     quality={100}
                     className="object-contain p-4"
                     priority={index === 0}
