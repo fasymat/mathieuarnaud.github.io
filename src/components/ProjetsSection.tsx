@@ -19,7 +19,7 @@ export default function ProjetsSection() {
       imageUrl: "/Logo.png"
     },
     {
-      titre: "site de location immobilière",
+      titre: "Site de location immobilière",
       description: "Développement du site en suivant les instructions de la maquette figma",
       technologies: ["React", "SCSS"],
       githubLink: "https://github.com/fasymat/Kasa-op",

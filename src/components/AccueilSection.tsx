@@ -39,15 +39,8 @@ export default function AccueilSection() {
         </div>
         <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 mt-6 sm:mt-10 md:mt-20 justify-center">
           <a
-            href="/CV.pdf"
-            download
-            className="text-xs sm:text-sm md:text-base bg-white text-black border-2 border-black px-3 sm:px-4 md:px-6 py-2 md:py-3 rounded-lg hover:bg-black hover:text-white transition duration-500 text-center"
-          >
-            Télécharger CV
-          </a>
-          <a
             href="#contact"
-            className="text-xs sm:text-sm md:text-base bg-white text-black border-2 border-black px-3 sm:px-4 md:px-6 py-2 md:py-3 rounded-lg hover:bg-black hover:text-white transition duration-500 text-center"
+            className="text-xs sm:text-sm md:text-lg bg-white text-black border-2 border-black px-3 sm:px-4 md:px-6 py-2 md:py-3 rounded-lg hover:bg-black hover:text-white transition duration-500 text-center"
           >
             Me Contacter
           </a>

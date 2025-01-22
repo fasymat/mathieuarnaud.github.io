@@ -1,4 +1,4 @@
-// components/Navbar.tsx
+
 'use client'
 
 import { useState } from 'react'
@@ -64,7 +64,7 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="h-16" /> {/* Spacer to prevent content overlap */}
+      <div className="h-16" /> {/* espace pour eviter overlap*/}
     </>
   )
 } 

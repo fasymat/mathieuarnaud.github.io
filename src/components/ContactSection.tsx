@@ -4,7 +4,7 @@ import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 
 // Initialisation avec la nouvelle clé publique
-emailjs.init("YOUR_NEW_PUBLIC_KEY")
+emailjs.init("1LPpDFmknVMi8rgRi")
 
 export default function ContactSection() {
   const [nom, setNom] = useState('')
