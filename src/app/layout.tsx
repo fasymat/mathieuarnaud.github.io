@@ -12,6 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
+      <head><script src="https://www.google.com/recaptcha/api.js" async defer></script></head>
       <body className="bg-white text-black">
         <Navbar />
         <main className=" container mx-auto"> {/* Espace pour la navbar + container centré */}
