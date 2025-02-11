@@ -2,7 +2,8 @@ import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import { verifyCaptcha } from '@/lib/captcha';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Assurez-vous que la clé API est chargée depuis les variables d'environnement
+const resend = new Resend(process.env.RESEND_API_KEY || '');
 
 export async function POST(request: Request) {
   try {
