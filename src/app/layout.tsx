@@ -1,9 +1,9 @@
-
 import "./globals.css";
 // app/layout.tsx
 import Navbar from '../components/Navbar'
 import Footer from "@/components/Footer";
 import { ReactNode } from 'react'
+import CookieBanner from '@/components/CookieBanner';
 
 export default function RootLayout({ 
   children 
@@ -18,6 +18,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <CookieBanner />
       </body>
     </html>
   )
