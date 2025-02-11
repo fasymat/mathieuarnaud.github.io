@@ -45,7 +45,7 @@ export default function AccueilSection() {
             Me Contacter
           </a>
           <a
-            href="/Mathieu_Arnaud_CV.pdf"
+            href="/CV_Mathieu_Arnaud.pdf"
             className="text-xs sm:text-sm md:text-lg bg-white text-black border-2 border-black px-3 sm:px-4 md:px-6 py-2 md:py-3 rounded-lg hover:bg-black hover:text-white transition duration-500 text-center"
           >
            Mon CV

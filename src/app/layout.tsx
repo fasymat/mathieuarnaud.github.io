@@ -1,5 +1,6 @@
 import "./globals.css";
 // app/layout.tsx
+import { Analytics } from "@vercel/analytics/react"
 import Navbar from '../components/Navbar'
 import Footer from "@/components/Footer";
 import { ReactNode } from 'react'
@@ -20,6 +21,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <CookieBanner />
+        <Analytics />
       </body>
     </html>
   )
